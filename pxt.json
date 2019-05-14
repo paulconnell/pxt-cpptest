@@ -3,7 +3,8 @@
     "version": "0.0.0",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "core---stm32": "*",
+        "accelerometer": "*"
     },
     "files": [
         "README.md",
@@ -13,6 +14,7 @@
     "testFiles": [
         "test.ts"
     ],
+    "compileServiceVariant": "stm32f401",
     "public": false,
     "additionalFilePaths": []
 }
